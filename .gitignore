@@ -1,3 +1,5 @@
 .direnv
 config
 !jupyter_lab_config.py
+__pycache__
+.ipynb_*

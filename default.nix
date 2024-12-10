@@ -5,6 +5,10 @@ pkgs.mkShell {
     (
       with jupyter-all.pkgs; [
         matplotlib
+        tqdm
+        torch
+        typing-extensions
+        torchvision
       ]
     )
   ];
